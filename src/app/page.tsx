@@ -7,9 +7,12 @@ import Projects from "@/components/Projects";
 import ArchitectureSection from "@/components/ArchitectureSection";
 import SqlShowcase from "@/components/SqlShowcase";
 import FabricSection from "@/components/FabricSection";
+import CloudSecuritySection from "@/components/CloudSecuritySection";
+import AnalyticsSection from "@/components/AnalyticsSection";
 import SkillsSection from "@/components/SkillsSection";
 import ConceptsSection from "@/components/ConceptsSection";
 import OnPremSection from "@/components/OnPremSection";
+import DevOpsSection from "@/components/DevOpsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import GitHubSection from "@/components/GitHubSection";
 import ContactSection from "@/components/ContactSection";
@@ -42,25 +45,34 @@ export default function Home() {
       {/* 7. Modern Data Platform — Microsoft Fabric Journey */}
       <FabricSection />
 
-      {/* 8. Categorized Technical Skills */}
+      {/* 8. Microsoft Azure & Cloud Security Access Patterns */}
+      <CloudSecuritySection />
+
+      {/* 9. Analytics & Power BI Semantic Modeling */}
+      <AnalyticsSection />
+
+      {/* 10. Categorized Technical Skills */}
       <SkillsSection />
 
-      {/* 9. Data Engineering Concepts & Design Trade-Offs */}
+      {/* 11. Data Engineering Concepts & Design Trade-Offs */}
       <ConceptsSection />
 
-      {/* 10. On-Premises & Hybrid Data Engineering */}
+      {/* 12. On-Premises & Hybrid Data Engineering */}
       <OnPremSection />
 
-      {/* 11. Professional Experience Timeline */}
+      {/* 13. DevOps & Engineering Practices */}
+      <DevOpsSection />
+
+      {/* 14. Professional Experience Timeline */}
       <ExperienceSection />
 
-      {/* 12. Featured GitHub Showcase */}
+      {/* 15. Featured GitHub Showcase */}
       <GitHubSection />
 
-      {/* 13. Contact & Final CTA */}
+      {/* 16. Contact & Final CTA */}
       <ContactSection />
 
-      {/* 14. Footer */}
+      {/* 17. Footer */}
       <Footer />
     </main>
   );
