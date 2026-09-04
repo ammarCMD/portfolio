@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>All Systems Operational • Modern Lakehouse Standards</span>
+            <span>All Systems Operational • Islamabad, Pakistan • Modern Lakehouse Standards</span>
           </div>
 
           <div>

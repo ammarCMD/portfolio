@@ -8,7 +8,9 @@ import {
   FileDown, 
   Copy, 
   Check, 
-  ExternalLink
+  ExternalLink,
+  Phone,
+  MapPin
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
@@ -44,8 +46,8 @@ export default function ContactSection() {
           </p>
         </div>
 
-        {/* Contact Cards Grid */}
-        <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+        {/* Contact Cards Grid: Email, Phone/Location, LinkedIn, GitHub */}
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
           {/* Email Card with Copy Feature */}
           <div className="p-6 rounded-2xl bg-deDark-950 border border-slate-800 hover:border-sky-500/40 transition-all flex flex-col justify-between text-center space-y-3 shadow-xl">
             <div className="w-10 h-10 mx-auto rounded-xl bg-sky-950 text-sky-400 flex items-center justify-center border border-sky-800/80">
@@ -53,9 +55,13 @@ export default function ContactSection() {
             </div>
             <div>
               <div className="text-xs font-mono text-slate-400 uppercase">Direct Email</div>
-              <div className="text-xs font-mono font-bold text-white mt-1 truncate">
+              <a
+                href={`mailto:${PERSONAL_INFO.links.email}`}
+                className="text-xs font-mono font-bold text-white hover:text-sky-300 transition-colors mt-1 block truncate"
+                title={PERSONAL_INFO.links.email}
+              >
                 {PERSONAL_INFO.links.email}
-              </div>
+              </a>
             </div>
             <button
               type="button"
@@ -76,6 +82,32 @@ export default function ContactSection() {
             </button>
           </div>
 
+          {/* Phone & Location Card */}
+          <div className="p-6 rounded-2xl bg-deDark-950 border border-slate-800 hover:border-emerald-500/40 transition-all flex flex-col justify-between text-center space-y-3 shadow-xl">
+            <div className="w-10 h-10 mx-auto rounded-xl bg-emerald-950 text-emerald-400 flex items-center justify-center border border-emerald-800/80">
+              <Phone className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-xs font-mono text-slate-400 uppercase">Phone & Location</div>
+              <a
+                href={`tel:${PERSONAL_INFO.phone}`}
+                className="text-xs font-mono font-bold text-white hover:text-emerald-300 transition-colors mt-1 block"
+              >
+                {PERSONAL_INFO.phoneDisplay}
+              </a>
+              <div className="flex items-center justify-center gap-1 text-[11px] font-mono text-slate-400 mt-1">
+                <MapPin className="w-3 h-3 text-sky-400" />
+                <span>{PERSONAL_INFO.location}</span>
+              </div>
+            </div>
+            <a
+              href={`tel:${PERSONAL_INFO.phone}`}
+              className="w-full py-2 rounded-lg text-xs font-mono font-semibold bg-slate-900 hover:bg-slate-800 text-emerald-400 border border-slate-700/80 flex items-center justify-center gap-1.5 transition-colors"
+            >
+              <span>Call / WhatsApp</span>
+            </a>
+          </div>
+
           {/* LinkedIn Card */}
           <a
             href={PERSONAL_INFO.links.linkedin}
@@ -89,18 +121,18 @@ export default function ContactSection() {
             <div>
               <div className="text-xs font-mono text-slate-400 uppercase">LinkedIn Profile</div>
               <div className="text-xs font-mono font-bold text-white mt-1 group-hover:text-sky-300 transition-colors">
-                Connect on LinkedIn
+                iammarrasheed
               </div>
             </div>
             <div className="w-full py-2 rounded-lg text-xs font-mono font-semibold bg-slate-900 group-hover:bg-slate-800 text-sky-400 border border-slate-700/80 flex items-center justify-center gap-1.5">
-              <span>Open Network</span>
+              <span>Connect</span>
               <ExternalLink className="w-3 h-3" />
             </div>
           </a>
 
           {/* GitHub Card */}
           <a
-            href={PERSONAL_INFO.links.github}
+            href={PERSONAL_INFO.links.githubProfile}
             target="_blank"
             rel="noopener noreferrer"
             className="p-6 rounded-2xl bg-deDark-950 border border-slate-800 hover:border-sky-500/40 transition-all flex flex-col justify-between text-center space-y-3 shadow-xl group"
@@ -109,13 +141,13 @@ export default function ContactSection() {
               <GithubIcon className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-xs font-mono text-slate-400 uppercase">Code Repository</div>
+              <div className="text-xs font-mono text-slate-400 uppercase">GitHub Profile</div>
               <div className="text-xs font-mono font-bold text-white mt-1 group-hover:text-sky-300 transition-colors">
-                Explore Repositories
+                ammarCMD
               </div>
             </div>
             <div className="w-full py-2 rounded-lg text-xs font-mono font-semibold bg-slate-900 group-hover:bg-slate-800 text-slate-200 border border-slate-700/80 flex items-center justify-center gap-1.5">
-              <span>View GitHub</span>
+              <span>View Profile</span>
               <ExternalLink className="w-3 h-3" />
             </div>
           </a>

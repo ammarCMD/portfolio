@@ -74,14 +74,17 @@ export interface ConceptItem {
 }
 
 export const PERSONAL_INFO = {
-  name: "Ammar",
+  name: "Ammar Rasheed",
   role: "Junior Data Engineer",
   headline: "Junior Data Engineer | ETL/ELT | SQL | Python | Azure | Databricks | Apache Spark | Microsoft Fabric",
   tagline: "Building reliable data pipelines from source to insight.",
+  location: "Islamabad, Pakistan",
+  phone: "+923435150601",
+  phoneDisplay: "+92 343 5150601",
   shortBio:
     "Junior Data Engineer with around one year of professional experience working across ETL/ELT pipelines, relational databases, data warehousing, dimensional modeling, and modern cloud platforms. With a strong foundation in SQL and hands-on exposure to Azure, Databricks, Apache Spark, Microsoft Fabric, and Power BI, I specialize in transforming raw, disordered data into governed, analytics-ready models.",
   fullBio: [
-    "I am a Junior Data Engineer with around one year of experience working with data engineering, ETL/ELT pipelines, databases, data warehousing, dimensional modeling, cloud data platforms, and analytics.",
+    "I am a Junior Data Engineer based in Islamabad, Pakistan, with around one year of experience working with data engineering, ETL/ELT pipelines, databases, data warehousing, dimensional modeling, cloud data platforms, and analytics.",
     "My strongest area is SQL, while I am continuously developing deeper expertise in cloud data engineering, Spark, Databricks, Microsoft Fabric, and modern data platforms. I have worked extensively with on-premises data solutions, relational databases, and modern cloud architectures.",
     "I believe reliable data systems are founded on sound architectural principles: robust data ingestion, automated quality validations, reproducible transformations through Medallion layers, and clean dimensional models that enable business users to extract accurate insights effortlessly."
   ],
@@ -93,10 +96,10 @@ export const PERSONAL_INFO = {
   ],
   links: {
     github: "https://github.com/databeli/finguard_streaming_project", // Featured real repo
-    githubProfile: "https://github.com/YOUR_GITHUB_URL", // Placeholder
-    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_URL", // Placeholder
-    email: "YOUR_EMAIL@example.com", // Placeholder
-    resume: "/assets/resume.pdf" // Placeholder
+    githubProfile: "https://github.com/ammarCMD",
+    linkedin: "https://linkedin.com/in/iammarrasheed",
+    email: "ammarrasheedofficial@gmail.com",
+    resume: "/assets/resume.pdf"
   }
 };
 

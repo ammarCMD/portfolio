@@ -14,12 +14,14 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ammar | Junior Data Engineer | SQL, Python, Azure, Databricks & Microsoft Fabric",
+  title: "Ammar Rasheed | Junior Data Engineer | SQL, Python, Azure, Databricks & Microsoft Fabric",
   description:
-    "Junior Data Engineer specializing in SQL, Python, ETL/ELT pipelines, Azure, Databricks, Apache Spark, Microsoft Fabric, data warehousing, and Power BI. Building reliable data pipelines from source to insight.",
+    "Ammar Rasheed — Junior Data Engineer based in Islamabad, Pakistan, specializing in SQL, Python, ETL/ELT pipelines, Azure, Databricks, Apache Spark, Microsoft Fabric, data warehousing, and Power BI. Building reliable data pipelines from source to insight.",
   keywords: [
+    "Ammar Rasheed",
     "Junior Data Engineer",
-    "Data Engineer",
+    "Data Engineer Pakistan",
+    "Junior Data Engineer Islamabad",
     "Azure Data Engineer",
     "Databricks Data Engineer",
     "SQL Data Engineer",
@@ -33,20 +35,20 @@ export const metadata: Metadata = {
     "Power BI",
     "PySpark"
   ],
-  authors: [{ name: "Ammar" }],
-  creator: "Ammar",
+  authors: [{ name: "Ammar Rasheed" }],
+  creator: "Ammar Rasheed",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://portfolio.dataengineer.dev",
-    title: "Ammar | Junior Data Engineer Portfolio",
+    title: "Ammar Rasheed | Junior Data Engineer Portfolio",
     description:
-      "Junior Data Engineer specializing in SQL, Python, ETL/ELT pipelines, Azure, Databricks, Apache Spark, Microsoft Fabric, and Power BI.",
-    siteName: "Ammar Data Engineering Portfolio",
+      "Ammar Rasheed — Junior Data Engineer based in Islamabad, Pakistan, specializing in SQL, Python, ETL/ELT pipelines, Azure, Databricks, Apache Spark, Microsoft Fabric, and Power BI.",
+    siteName: "Ammar Rasheed Data Engineering Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ammar | Junior Data Engineer",
+    title: "Ammar Rasheed | Junior Data Engineer",
     description: "Building reliable data pipelines from source to insight.",
   },
 };
