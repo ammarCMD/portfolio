@@ -52,14 +52,14 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { label: "About", href: "#about", id: "about" },
-    { label: "Pipeline", href: "#pipeline", id: "pipeline" },
-    { label: "Projects", href: "#projects", id: "projects" },
-    { label: "Architecture", href: "#architecture", id: "architecture" },
-    { label: "SQL & Modeling", href: "#sql", id: "sql" },
-    { label: "Fabric", href: "#fabric", id: "fabric" },
-    { label: "Skills", href: "#skills", id: "skills" },
-    { label: "Experience", href: "#experience", id: "experience" },
+    { label: "About", href: "/#about", id: "about" },
+    { label: "Pipeline", href: "/#pipeline", id: "pipeline" },
+    { label: "Projects", href: "/#projects", id: "projects" },
+    { label: "Architecture", href: "/#architecture", id: "architecture" },
+    { label: "SQL & Modeling", href: "/#sql", id: "sql" },
+    { label: "Fabric", href: "/#fabric", id: "fabric" },
+    { label: "Skills", href: "/#skills", id: "skills" },
+    { label: "Experience", href: "/#experience", id: "experience" },
   ];
 
   return (
@@ -73,7 +73,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand / Logo */}
         <a
-          href="#hero"
+          href="/#hero"
           className="group flex items-center gap-2.5 text-slate-100 transition-colors"
         >
           <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-sky-500/20 to-teal-500/10 border border-sky-500/30 flex items-center justify-center group-hover:border-sky-400/60 transition-colors">

@@ -25,7 +25,7 @@ export default function FabricSection() {
   };
 
   return (
-    <section id="fabric" className="py-24 bg-deDark-900/40 border-b border-slate-800/80 relative">
+    <section id="fabric" className="py-24 bg-deDark-900/40 border-b border-slate-800/80 relative scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">

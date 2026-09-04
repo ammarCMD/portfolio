@@ -24,7 +24,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-deDark-900/60 relative">
+    <section id="contact" className="py-24 bg-deDark-950 border-b border-slate-800/80 relative scroll-mt-20">
       {/* Ambient background glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-sky-500/5 blur-[120px] pointer-events-none -z-10" />
 
