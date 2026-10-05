@@ -95,7 +95,7 @@ export const PERSONAL_INFO = {
     { label: "Engineered Projects", value: "6 Solutions", detail: "Healthcare, Flights, Sales, Streaming & Local ETL" }
   ],
   links: {
-    github: "https://github.com/databeli/finguard_streaming_project", // Featured real repo
+    github: "https://github.com/ammarCMD/finguard_streaming_project", // Featured real repo
     githubProfile: "https://github.com/ammarCMD",
     linkedin: "https://linkedin.com/in/iammarrasheed",
     email: "ammarrasheedofficial@gmail.com",
@@ -725,7 +725,7 @@ export const PROJECTS: Project[] = [
       "PySpark streaming transformations and schema validation",
       "Medallion architecture applied to time-sensitive event streams"
     ],
-    githubUrl: "https://github.com/databeli/finguard_streaming_project",
+    githubUrl: "https://github.com/ammarCMD/finguard_streaming_project",
     architectureDiagramType: "flight"
   },
   {
