@@ -115,7 +115,7 @@ export default function Navbar() {
         <div className="hidden sm:flex items-center gap-3">
           <a
             href={PERSONAL_INFO.links.resume}
-            download="Ammar_Data_Engineer_Resume.pdf"
+            download="Ammar_Rasheed_Resume.pdf"
             className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium font-mono text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 border border-slate-700/80 rounded-lg transition-all"
             title="Download Resume PDF"
           >
@@ -166,7 +166,7 @@ export default function Navbar() {
           <div className="pt-4 border-t border-slate-800/80 flex flex-col gap-2">
             <a
               href={PERSONAL_INFO.links.resume}
-              download="Ammar_Data_Engineer_Resume.pdf"
+              download="Ammar_Rasheed_Resume.pdf"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center justify-center gap-2 w-full py-2.5 text-xs font-mono font-medium text-slate-300 bg-slate-900 border border-slate-800 rounded-lg"
             >

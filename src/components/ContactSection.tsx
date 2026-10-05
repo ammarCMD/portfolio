@@ -164,7 +164,7 @@ export default function ContactSection() {
           <div className="flex flex-wrap items-center justify-center gap-3 pt-1">
             <a
               href={PERSONAL_INFO.links.resume}
-              download="Ammar_Data_Engineer_Resume.pdf"
+              download="Ammar_Rasheed_Resume.pdf"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs sm:text-sm font-semibold text-slate-950 bg-gradient-to-r from-sky-400 to-teal-400 hover:from-sky-300 hover:to-teal-300 transition-all shadow-md font-sans"
             >
               <FileDown className="w-4 h-4" />

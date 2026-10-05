@@ -99,7 +99,7 @@ export const PERSONAL_INFO = {
     githubProfile: "https://github.com/ammarCMD",
     linkedin: "https://linkedin.com/in/iammarrasheed",
     email: "ammarrasheedofficial@gmail.com",
-    resume: "/assets/resume.pdf"
+    resume: "/assets/Ammar_Rasheed_Resume.pdf"
   }
 };
 
